@@ -5,10 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tea House</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/5cdf27c05f.js" crossorigin="anonymous"></script>
+  <!-- styles -->
+  <style>
+    body {
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
 </head>
-<body>
-  <header></header>
-  <main></main>
+<body class="border-4 border-red-700">
+  <!-- header -->
+  <header class="max-w-screen-xl mx-auto border-green-600 border-4">
+    <!-- banner -->
+    <div class="flex pt-12 justify-between items-center gap-20">
+      <!-- banner content -->
+      <div class="space-y-4">
+        <h class="text-7xl font-extrabold">It's good<br>tea time at The<br>Tea House</h>
+        <p class="w-3/4 text-[#777] font-medium">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+        </p>
+        <button class="bg-gradient-to-r from-orange-500 to-red-600 p-3 rounded-lg text-white font-semibold">Explore More
+          <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+      </div>
+      <!-- banner image -->
+      <div class="relative ">
+        <img src="images/banner.png" alt="">
+        <!-- ratting -->
+        <div class="flex justify-between items-center gap-2 p-4 bg-white rounded-md shadow-lg absolute bottom-8 left-28">
+          <!-- star -->
+          <img src="images/star.png" alt="">
+          <div>
+            <h3 class="text-3xl font-extrabold">5.00</h3>
+            <p class="font-semibold text-[#777]">Trust Pilot Ratings</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main -->
+  <main class="max-w-screen-xl mx-auto border-green-600 border-4">
+    <!-- Featured products section -->
+    <section></section>
+    <!-- Great Tea section -->
+    <section></section>
+    <!-- Our Client section -->
+    <section></section>
+    <!-- News Event section -->
+    <section></section>
+  </main>
+  <!-- footer -->
   <footer></footer>
 </body>
 </html>
